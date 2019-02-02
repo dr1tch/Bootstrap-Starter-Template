@@ -3,9 +3,45 @@ body {
     background-size:cover;
 }
 
+
+
+
 .crd {
     background-color: #2C2C2C;
-    margin: 5% 10%;
+    
     color: #D1E8E2;
 }
 
+.btn {
+    color: #C9391F;
+    border-color: #C9391F;
+}
+
+.btn:hover, .btn:checked, .btn:visited {
+    background-color: #C9391F;
+    border-color: #C9391F;
+    color: #2C2C2C.
+}
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

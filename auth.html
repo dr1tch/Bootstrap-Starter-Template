@@ -12,10 +12,22 @@
   </head>
   <body>
   
-    <div class="container">
-        <div class="card" style="width: 50%; margin: 10% auto">
-            <img src="img/maxresdefault.jpg" alt="Devslopes" class="card-img-top logo-image">
+    <div class="container-fluid">
+        <div class="col-lg-2"></div>
+        <div class="card crd col-lg-8">
+            <img src="img/maxresdefault.jpg" alt="Devslopes" class="card-img-top">
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="emailAdresse">Email:</label>
+                        <input type="email" class="form-control" id="emailAdresse" aria-describedby="emailHelp" placeholder="JohnDoe@email.com">
+                        <small id="emailHelp" class="form-text text-muted">Of course no one will see it!</small>
+                        
+                    </div>
+                </form>
+            </div>
         </div>
+        <div class="col-lg-2"></div>
     </div>
       
        

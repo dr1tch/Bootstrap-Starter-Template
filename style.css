@@ -3,8 +3,6 @@ body {
     background-size:cover;
 }
 
-.card {
-    margin: 10% auto;
-    width: 50%;
-    height: 50%;
+.crd {
+    background-color: #2C2C2C.
 }

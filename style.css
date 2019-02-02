@@ -6,9 +6,10 @@ body {
 
 
 
-.crd {
+.card {
     background-color: #2C2C2C;
-    
+    margin:auto;
+    margin-top: 10%;
     color: #D1E8E2;
 }
 
@@ -23,9 +24,37 @@ body {
     color: #2C2C2C.
 }
 
+@media screen and (min-width: 993px){
+    .card {
+        margin: auto;
+        margin-top: 5%;
+    }
+}
 
+@media screen and (max-width: 575px){
+    .card {
+        margin: auto;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 760px){
+    .card {
+        margin: auto;
+        margin-top: 10%;
+        max-width: 100%;
+    }
     
-    
+    .col-md-6 {
+        width: 80%;
+    }
+    .col-md-3 {
+        width: 10%;
+    }
+}
+
+
+
     
     
     
